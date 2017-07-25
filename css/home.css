@@ -323,6 +323,20 @@ body {
     text-align: center;
     color: #747373; }
 
+.tec {
+  width: 100%;
+  height: 0.8rem;
+  background-color: #2186e2;
+  font-family: PingFang-SC;
+  font-size: 0.22rem;
+  font-weight: 500;
+  text-align: center;
+  color: #fdfeff;
+  flex-direction: row;
+  justify-content: center; }
+  .tec .weui-flexz_item:nth-child(1) {
+    margin-right: 0.3rem; }
+
 .swiper-container {
   height: auto;
   margin-left: auto;
