@@ -1,0 +1,50 @@
+@import "base.css";
+@import "mixin";
+
+.container{
+  position: initial;
+}
+.weui-cell{
+  height: 0.88rem;
+  font-size: 0.28rem;
+  font-weight: 500;
+  text-align: left;
+  color: #888888;
+}
+.weui-cells{
+  margin-top: 0!important;
+  height: 0.88rem;
+  .weui-cell{
+    margin: 0;
+    font-size: 0.34rem;
+    font-weight: 500;
+    text-align: left;
+    color: #000000;
+  }
+}
+a.weui-cell{
+  background: #fff;
+  color: #000;
+  margin: 0;
+}
+.weui-btn{
+  border-radius: 0.1rem;
+  background-color: #18a6f0;
+  width:6.90rem;
+  height: 0.88rem;
+  margin-top: 0.67rem;
+  font-size: 0.36rem;
+
+}
+.weui_select{
+  width: 100%;
+  padding: 0.23rem 0.35rem 0.23rem 0.25rem;
+  border: 0;
+  outline: none;
+  color: #000000;
+  font-size: 0.34rem;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance: none;
+  background:url("../images/arrow.png") no-repeat scroll right center transparent;
+}

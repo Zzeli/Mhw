@@ -1,0 +1,55 @@
+@import "base.css";
+@import "mixin";
+
+body,html{
+  background-color: #efeff4;
+}
+.weui-media-box{
+ padding-bottom: 0;
+}
+.weui-media-box__title{
+  font-size: 0.37rem;
+}
+.weui-media-box__desc{
+  font-size: 0.24rem;
+}
+.weui-media-box_appmsg .weui-media-box__hd{
+  width:0.79rem;
+  height: 1rem;
+}
+.container{
+  overflow: scroll;
+  padding-top: 0.49rem;
+
+}
+.con{
+  width:95%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+.weui-cell__bd{
+  font-size: 0.34rem;
+  display: flex;
+  p:nth-child(1){
+    margin-right: 0.4rem;
+    flex: 3;
+
+  }
+  p:nth-child(2){
+    flex: 8;
+    text-align: left;
+    color: #b2b2b2;
+}
+}
+.weui-flex{
+  a{
+    background-color: #18a6f0;
+    font-size: 0.36rem;
+  }
+}
+.weui-flex .weui-flex__item:nth-child(1){
+  margin-right: 0.18rem;
+}
+.weui-cells{
+  margin-top: 0;
+}
