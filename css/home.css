@@ -274,19 +274,21 @@ body {
   align-items: center;
   box-sizing: border-box; }
   .method .weui-flex__item {
-    width: 3.18rem;
+    width: 3.38rem;
     height: 0.87rem;
     flex: 0 1 auto;
     background-image: linear-gradient(to right, #2185e2 0%, #26a8df 99%);
     display: flex;
     align-items: center;
     font-size: 0.32rem;
-    padding-left: 0.65rem;
-    border-radius: 0.1rem; }
+    border-radius: 0.1rem;
+    justify-content: center; }
     .method .weui-flex__item img {
       width: 0.41rem;
       height: 0.41rem;
       margin-right: 0.19rem; }
+    .method .weui-flex__item p {
+      margin-top: 0.05rem; }
 
 .map {
   width: 100%;
@@ -296,7 +298,7 @@ body {
   align-items: center;
   justify-content: center; }
   .map .weui-flex {
-    height: 40%;
+    height: 50%;
     width: 100%;
     justify-content: space-around; }
   .map .weui-flex__item {

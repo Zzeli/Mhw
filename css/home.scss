@@ -133,7 +133,7 @@ body {
   border: solid 0.01rem #dfdcdc;
 }
 .weui-jia-cell-column-center.warp{
- background-color: #EFEFF4;
+  background-color: #EFEFF4;
   color: #272626;
   font-size: 0.26rem;
   font-weight: 500;
@@ -245,19 +245,22 @@ body {
   align-items: center;
   box-sizing: border-box;
   .weui-flex__item {
-    width:3.18rem;
+    width:3.38rem;
     height: 0.87rem;
     flex:0 1 auto;
     background-image: linear-gradient(to right, #2185e2 0%, #26a8df 99%);
     display: flex;
     align-items: center;
     font-size: 0.32rem;
-    padding-left: 0.65rem;
     border-radius: 0.1rem;
+    justify-content: center;
     img{
       width: 0.41rem;
       height: 0.41rem;
       margin-right: 0.19rem;
+    }
+    p{
+      margin-top: 0.05rem;
     }
   }
 }
@@ -270,7 +273,7 @@ body {
   align-items: center;
   justify-content: center;
   .weui-flex {
-    height: 40%;
+    height: 50%;
     width: 100%;
     justify-content: space-around;
   }
