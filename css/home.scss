@@ -177,14 +177,18 @@ body {
 }
 .weui-grid__icon img{
   width: 0.85rem;
-  height: 0.79rem;
+  height: 0.85rem;
+}
+.weui-grids .weui-flex:nth-child(1) .weui-grid__icon{
+  margin-top: 0.05rem;
+
 }
 .weui-grids .weui-flex:nth-child(2) .weui-grid__icon img{
-  width: 0.67rem;
-  height: 0.79rem;
+  width: 0.66rem;
+  height: 0.75rem;
 }
 .weui-grids .weui-flex:nth-child(3) .weui-grid__icon img{
-  width: 0.85rem;
+  width: 0.83rem;
   height: 0.73rem;
 }
 .weui-flex {
